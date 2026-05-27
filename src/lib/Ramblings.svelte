@@ -1,40 +1,12 @@
 <script lang="ts">
 	const ramblings = [
 		{
-			title: 'why i rewrote TCP from scratch',
-			teaser: "nc didn't do a proper teardown. that bothered me more than it should have.",
-			slug: 'tcp-from-scratch',
-			date: 'someday, 2025',
-			tag: 'first principles'
-		},
-		{
-			title: "abstractions are great. until they aren't.",
-			teaser: 'a rant about the moment an abstraction stops being helpful and starts being a lie.',
-			slug: 'abstractions',
-			date: 'someday, 2025',
-			tag: 'rant'
-		},
-		{
-			title: 'what even is a protocol',
+			title: 'Why not a 2 way handshake?',
 			teaser:
-				"i built CSFTP to answer this. turns out it's just bytes sent and meaningfully parsed.",
-			slug: 'what-is-a-protocol',
-			date: 'someday, 2025',
-			tag: 'thought dump'
-		},
-		{
-			title: 'why i rewrote TCP from scratch',
-			teaser: "nc didn't do a proper teardown. that bothered me more than it should have.",
-			slug: 'tcp-from-scratch',
-			date: 'someday, 2025',
-			tag: 'first principles'
-		},
-		{
-			title: 'why i rewrote TCP from scratch',
-			teaser: "nc didn't do a proper teardown. that bothered me more than it should have.",
-			slug: 'tcp-from-scratch',
-			date: 'someday, 2025',
-			tag: 'first principles'
+				"I mean? That's a fair question isn't it? But I never really could answer why until I wrote it from scratch.",
+			slug: 'why-not-a-2-way-handshake',
+			date: 'May, 2025',
+			tag: 'first principles,TCP'
 		}
 	];
 </script>
@@ -48,10 +20,11 @@
 		<div class="r-header">
 			<h2 class="r-title">Ramblings</h2>
 			<p class="r-desc">
-				I write when something doesn't make sense — and then suddenly does.
-				<span class="hl-y">abstractions that annoyed me,</span> things I rebuilt from scratch,
-				<span class="hl-r">first principles I had to find myself.</span>
-				Not tutorials. Just thinking out loud, cleaned up a little.
+				I write when something doesn't make sense and then suddenly does.That includes:
+				<span class="hl-y">abstractions that annoyed me,</span>
+				things I rebuilt from scratch,
+				<span class="hl-r">f irst principles I had to find myself.</span>
+				Just me thinking out loud, cleaned up a little.
 			</p>
 		</div>
 

@@ -27,12 +27,12 @@
 					"If I was responsible for something real, I needed to understand it completely."
 				</p>
 				<p class="ch-body">
-					Frontend was fun until it wasn't. Then my friends pulled me into a venture — handle the
-					entire backend and infra. I said yes. Then the paranoia hit. Not "I know how to deploy
-					things" understand. I mean — open Wireshark, see an RST packet, and know <span
-						class="hl-y">immediately why the connection terminated.</span
+					Frontend was fun until it wasn't. Then my friends pulled me into a venture. Handle the
+					backend and infra. I said yes. Then the paranoia hit. Not "I know how to deploy things"
+					understand. I mean, open Wireshark, see an RST packet, and know <span class="hl-y"
+						>immediately why the connection terminated.</span
 					>
-					That kind of understand. So I started at the beginning. Beej's guide. One thing stuck:
+					That kind of understanding. So I started at the beginning with Beej's guide. One thing stuck:
 					<span class="hl-r">sockets are endpoints. Bytes go in, bytes come out.</span> That was enough
 					to keep going.
 				</p>
@@ -47,18 +47,24 @@
 				<span class="chaos-note cn-tr">Go lied to me</span>
 				<span class="ch-num">chapter 01</span>
 				<h3 class="ch-name">
-					CSFTP <a class="gh-link" href="#" title="GitHub"
-						><svg viewBox="0 0 24 24"
+					CSFTP
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/csftp-go"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
 							><path
 								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
 							/></svg
-						></a
-					>
+						>
+					</a>
 				</h3>
 				<p class="ch-why">"I needed to know what a protocol actually was, from the byte up."</p>
 				<p class="ch-body">
 					Everyone said learn a language by building something real. So I opened the Go docs and
-					immediately noticed — all the syscalls, the bind, the listen, all of it was gone. <span
+					immediately noticed, all the syscalls, the bind, the listen, all of it was gone. <span
 						class="hl-r">One line and you have a listening socket.</span
 					>
 					And then it hit me. If Go is abstracting all of that away, and all a protocol really is is bytes
@@ -71,7 +77,7 @@
 			</div>
 		</div>
 
-		<!-- CH 02: VegoDB -->
+		<!-- CH 02: VegoshDB -->
 		<div class="chapter ch-left">
 			<div class="ch-dot"></div>
 			<div class="ch-card">
@@ -79,44 +85,96 @@
 				<span class="chaos-note cn-bl">in a very specific way</span>
 				<span class="ch-num">chapter 02</span>
 				<h3 class="ch-name">
-					VegoDB <a class="gh-link" href="#" title="GitHub"
-						><svg viewBox="0 0 24 24"
+					VegoshDB
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/Vegosh/tree/main/src"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
 							><path
 								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
 							/></svg
-						></a
-					>
+						>
+					</a>
 				</h3>
 				<p class="ch-why">
 					"I can't beat Redis broadly. So I found a specific constraint where I could win."
 				</p>
 				<p class="ch-body">
 					I wanted it faster. Faster meant C. CSFTP had disk IO so I wanted a pure networking
-					problem — a KV store. Which is basically Redis. I obviously can't beat Redis broadly. So I
+					problem: a KV store. Which is basically Redis. I obviously can't beat Redis broadly. So I
 					found a specific constraint: <span class="hl-y"
 						>64 byte entries, cache aligned to a single cache line, 1 million key static hash table.</span
 					>
 					Deterministic performance. For that specific payload,
-					<span class="hl-r">VegoDB beats Redis.</span> That's not a limitation. That's the design.
+					<span class="hl-r">VegoshDB aims to beat Redis.</span> That's not a limitation. That's the design.
 				</p>
 				<span class="ch-aside">cache lines are beautiful actually →</span>
 			</div>
 		</div>
 
-		<!-- CH 03: TCP -->
+		<!-- CH 02.5: Vegosh Hashmap -->
 		<div class="chapter ch-right">
 			<div class="ch-dot"></div>
 			<div class="ch-card">
-				<span class="chaos-note cn-tr">yes i read the RFC</span>
-				<span class="ch-num">chapter 03</span>
+				<span class="chaos-note cn-tr">the rabbit hole within the rabbit hole</span>
+				<span class="ch-num">chapter 02.5</span>
 				<h3 class="ch-name">
-					TCP from Scratch <a class="gh-link" href="#" title="GitHub"
-						><svg viewBox="0 0 24 24"
+					Vegosh Hashmap
+					<span class="lang-links">
+						<!-- Rust: official gear-crab logo -->
+						<a class="lang-link rust" href="#" title="Rust">
+							<img src="https://cdn.simpleicons.org/rust" alt="Rust" width="48" height="48" />
+						</a>
+
+						<a class="lang-link zig" href="https://github.com/bongacat07/veg-zig" title="Zig">
+							<img src="https://cdn.simpleicons.org/zig" alt="Zig" width="48" height="48" />
+						</a>
+
+						<a class="https://github.com/bongacat07/vegosh-Cpp" href="#" title="C++">
+							<img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="48" height="48" />
+						</a>
+						<a class="benchmark-link" href="#" title="Benchmarks">
+							<svg viewBox="0 0 24 24" fill="currentColor"
+								><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" /></svg
+							>
+						</a>
+					</span>
+				</h3>
+				<p class="ch-why">"Well.... that was a side quest!"</p>
+				<p class="ch-body">
+					VegoshDB was built around a specific hashmap design: 64 byte slots, 16 byte keys, 32 byte
+					values, robin hood probing, prefetching. This hashmap was me venturing into the rabbit
+					hole of memory.Built it in <span class="hl-y">Rust, Zig, and C++</span> Now I'm
+					<span class="hl-r">benchmarking it against hashbrown and ABSL.</span>
+				</p>
+				<span class="ch-aside">the engine powering everything ←</span>
+			</div>
+		</div>
+
+		<!-- CH 03: TCP -->
+		<div class="chapter ch-left">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tl">yes i read the RFC</span>
+				<span class="ch-num">chapter 03</span>
+				<div class="ongoing-badge">🟣 ongoing</div>
+				<h3 class="ch-name">
+					TCP from Scratch
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/tcp"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
 							><path
 								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
 							/></svg
-						></a
-					>
+						>
+					</a>
 				</h3>
 				<p class="ch-why">"I can't bypass something I don't understand."</p>
 				<p class="ch-body">
@@ -127,37 +185,43 @@
 					only just finished poll. I realized: if DPDK removes the kernel from the picture,
 					<span class="hl-r"
 						>I need to know exactly what the kernel was doing before I remove it.</span
-					> So I implemented TCP from scratch. RFC 793 compliant, userspace, in Rust.
+					> So I started implementing TCP from scratch. RFC 793 compliant, userspace, in Rust.
 				</p>
 				<span class="ch-aside">yes i read the entire RFC ←</span>
 			</div>
 		</div>
 
 		<!-- CH 04: miniNC -->
-		<div class="chapter ch-left">
-			<div class="ch-dot"></div>
-			<div class="ch-card">
-				<span class="chaos-note cn-tl">nc was wrong actually</span>
+		<div class="chapter ch-right">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tr">nc was wrong actually</span>
 				<span class="ch-num">chapter 04</span>
+				<div class="ongoing-badge">🟣 ongoing</div>
 				<h3 class="ch-name">
 					miniNC <span class="ch-name-chaos">+ chaos mode</span>
-					<a class="gh-link" href="#" title="GitHub"
-						><svg viewBox="0 0 24 24"
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/minc"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
 							><path
 								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
 							/></svg
-						></a
-					>
+						>
+					</a>
 				</h3>
 				<p class="ch-why">
 					"nc doesn't do a proper 4 way teardown. that bothered me enough to rewrite it."
 				</p>
 				<p class="ch-body">
-					I was using nc to test my TCP implementation. Quit the process — my impl got stuck in the
-					last ACK state. So I wrote miniNC with a terminate command that <span class="hl-y"
+					I was using nc to test my TCP implementation. Quit the process and my impl got stuck in
+					the last ACK state. So I wrote miniNC with a terminate command that <span class="hl-y"
 						>completes the handshake correctly.</span
 					>
-					Then I thought — why stop there? Why not send packets at completely wrong states?
+					Then I thought, why stop there? Why not send packets at completely wrong states?
 					<span class="hl-r">SYN during ESTABLISHED. RST when the connection is half open.</span>
 					See if the implementation actually holds. So I added chaos mode. Because
 					<span class="hl-y">WHY NOT.</span>
@@ -167,27 +231,20 @@
 		</div>
 
 		<!-- CH 05: QEMU NIC -->
-		<div class="chapter ch-right">
-			<div class="ch-dot"></div>
-			<div class="ch-card">
-				<span class="chaos-note cn-tr">what even is a NIC</span>
-				<span class="chaos-note cn-br">(i know now)</span>
+		<div class="chapter ch-left">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tl">what even is a NIC</span>
+				<span class="chaos-note cn-bl">(i know now)</span>
 				<span class="ch-num">chapter 05</span>
-				<h3 class="ch-name">
-					QEMU NIC Driver <a class="gh-link" href="#" title="GitHub"
-						><svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						></a
-					>
-				</h3>
+				<div class="ongoing-badge">🟣 ongoing</div>
+				<h3 class="ch-name">QEMU NIC Driver</h3>
 				<p class="ch-why">"Understanding TCP wasn't enough."</p>
 				<p class="ch-body">
 					TCP from scratch got me far. But I needed to understand <span class="hl-r"
 						>everything the kernel does silently</span
 					>
-					before a single byte reaches your application. So I wrote a virtual NIC driver in QEMU. Now
+					before a single byte reaches your application. So I am writing virtual NIC driver in QEMU. Now
 					epoll and io_uring aren't fast paths I'm blindly following.
 					<span class="hl-y">They're things I actually understand from underneath.</span>
 				</p>
@@ -196,12 +253,12 @@
 		</div>
 
 		<!-- CH 06: DPDK -->
-		<div class="chapter ch-left">
+		<div class="chapter ch-right">
 			<div class="ch-dot dot-inprog"></div>
 			<div class="ch-card card-inprog">
-				<span class="chaos-note cn-tl">the whole point</span>
+				<span class="chaos-note cn-tr">the whole point</span>
 				<span class="ch-num">chapter 06</span>
-				<div class="inprog-badge">⚡ in progress</div>
+				<div class="inprog-badge">⚡ the goal</div>
 				<h3 class="ch-name">DPDK</h3>
 				<p class="ch-why">"The original goal. Still the horizon."</p>
 				<p class="ch-body">
@@ -217,15 +274,26 @@
 </section>
 
 <style>
-	*,
-	*::before,
-	*::after {
+	* {
 		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 	}
+	body {
+		background: #0d0d0d;
+		min-height: 100vh;
+	}
 
 	@keyframes pulse-red {
+		0%,
+		100% {
+			opacity: 0.6;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+	@keyframes pulse-purple {
 		0%,
 		100% {
 			opacity: 0.6;
@@ -253,7 +321,6 @@
 		}
 	}
 
-	/* PROJECTS */
 	.projects {
 		position: relative;
 		padding: 5rem 2rem 6rem;
@@ -265,7 +332,6 @@
 		text-align: center;
 		margin-bottom: 4rem;
 	}
-
 	.proj-title {
 		font-family: 'Kranky', cursive;
 		font-size: clamp(2.5rem, 5vw, 5rem);
@@ -276,7 +342,6 @@
 		margin-bottom: 0.5rem;
 		display: inline-block;
 	}
-
 	.proj-sub {
 		font-family: 'Boogaloo', cursive;
 		font-size: clamp(1rem, 2vw, 1.3rem);
@@ -286,13 +351,11 @@
 		margin-top: 0.5rem;
 	}
 
-	/* spine */
 	.spine-wrap {
 		position: relative;
 		max-width: 1000px;
 		margin: 0 auto;
 	}
-
 	.spine-line {
 		position: absolute;
 		left: 50%;
@@ -310,7 +373,6 @@
 		z-index: 0;
 	}
 
-	/* chapters */
 	.chapter {
 		position: relative;
 		display: flex;
@@ -318,7 +380,6 @@
 		margin-bottom: 4rem;
 		z-index: 1;
 	}
-
 	.ch-left {
 		justify-content: flex-start;
 		padding-right: calc(50% + 2rem);
@@ -341,7 +402,11 @@
 		outline: 2px solid #ffee55;
 		z-index: 2;
 	}
-
+	.dot-ongoing {
+		background: #a855f7;
+		outline-color: #a855f7;
+		animation: pulse-purple 1.5s ease-in-out infinite;
+	}
 	.dot-inprog {
 		background: #ff4444;
 		outline-color: #ff4444;
@@ -357,12 +422,15 @@
 		max-width: 420px;
 		width: 100%;
 	}
-
 	.ch-left .ch-card {
 		box-shadow: 4px 4px 0 #ffee55;
 	}
 	.ch-right .ch-card {
 		box-shadow: -4px 4px 0 #ffee55;
+	}
+	.card-ongoing {
+		border-color: #a855f7;
+		box-shadow: 4px 4px 0 #a855f7 !important;
 	}
 	.card-inprog {
 		border-color: #ff4444;
@@ -378,7 +446,6 @@
 		display: block;
 		margin-bottom: 0.3rem;
 	}
-
 	.ch-name {
 		font-family: 'Kranky', cursive;
 		font-size: clamp(1.4rem, 2.5vw, 2rem);
@@ -393,14 +460,12 @@
 		gap: 0.4rem;
 		flex-wrap: wrap;
 	}
-
 	.ch-name-chaos {
 		color: #ff4444;
 		filter: drop-shadow(2px 2px 0 #ffee55);
 		font-size: 0.85em;
 	}
 
-	/* github icon */
 	.gh-link {
 		display: inline-flex;
 		align-items: center;
@@ -432,7 +497,6 @@
 		opacity: 0.9;
 		line-height: 1.4;
 	}
-
 	.ch-body {
 		font-family: 'Boogaloo', cursive;
 		font-size: clamp(0.9rem, 1.5vw, 1.05rem);
@@ -440,7 +504,6 @@
 		line-height: 1.65;
 		margin-bottom: 0.8rem;
 	}
-
 	.hl-y {
 		background: #ffee55;
 		color: #111;
@@ -453,7 +516,6 @@
 		padding: 0 4px;
 		border-radius: 2px;
 	}
-
 	.ch-aside {
 		font-family: 'Boogaloo', cursive;
 		font-size: 0.75rem;
@@ -463,6 +525,19 @@
 		font-style: italic;
 	}
 
+	.ongoing-badge {
+		display: inline-block;
+		font-family: 'Boogaloo', cursive;
+		font-size: 0.8rem;
+		background: #a855f7;
+		color: #fff;
+		padding: 2px 10px;
+		border-radius: 999px;
+		border: 2px solid #000;
+		box-shadow: 2px 2px 0 #000;
+		margin-bottom: 0.5rem;
+		animation: pulse-purple 1.5s ease-in-out infinite;
+	}
 	.inprog-badge {
 		display: inline-block;
 		font-family: 'Boogaloo', cursive;
@@ -477,7 +552,6 @@
 		animation: pulse-red 1.5s ease-in-out infinite;
 	}
 
-	/* chaos annotations floating beside cards */
 	.chaos-note {
 		position: absolute;
 		font-family: 'Boogaloo', cursive;
@@ -511,7 +585,6 @@
 		transform: rotate(-4deg);
 	}
 
-	/* floating doodles */
 	.proj-doodle {
 		position: absolute;
 		font-family: 'Boogaloo', cursive;
@@ -581,7 +654,70 @@
 		animation: wiggle 6s ease-in-out infinite;
 	}
 
-	/* MOBILE */
+	/* Language icon links */
+	.lang-links {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		margin-left: 0.2rem;
+	}
+	.lang-link {
+		display: inline-flex;
+		align-items: center;
+		text-decoration: none;
+		transition:
+			color 0.2s,
+			transform 0.2s;
+		transform-origin: center;
+		-webkit-text-stroke: 0;
+		font-size: 0.85em;
+	}
+	.lang-link:hover {
+		transform: scale(1.35);
+	}
+	.lang-link svg {
+		width: 1.1em;
+		height: 1.1em;
+	}
+	.lang-link.rust {
+		color: #555;
+	}
+	.lang-link.rust:hover {
+		color: #ce422b;
+	}
+	.lang-link.zig {
+		color: #555;
+	}
+	.lang-link.zig:hover {
+		color: #f7a41d;
+	}
+	.lang-link.cpp {
+		color: #555;
+	}
+	.lang-link.cpp:hover {
+		color: #00599c;
+	}
+	.benchmark-link {
+		display: inline-flex;
+		align-items: center;
+		color: #555;
+		text-decoration: none;
+		transition:
+			color 0.2s,
+			transform 0.2s;
+		transform-origin: center;
+		margin-left: 0.3rem;
+	}
+	.benchmark-link:hover {
+		color: #ffee55;
+		transform: scale(1.35);
+	}
+	.benchmark-link svg {
+		width: 0.9em;
+		height: 0.9em;
+		fill: currentColor;
+	}
+
 	@media (max-width: 700px) {
 		.spine-line {
 			display: none;
@@ -602,6 +738,9 @@
 			max-width: 100%;
 			box-shadow: 4px 4px 0 #ffee55 !important;
 		}
+		.card-ongoing {
+			box-shadow: 4px 4px 0 #a855f7 !important;
+		}
 		.card-inprog {
 			box-shadow: 4px 4px 0 #ff4444 !important;
 		}
@@ -611,9 +750,7 @@
 		.projects {
 			padding: 3rem 1.2rem 4rem;
 		}
-		.proj-doodle {
-			display: none;
-		}
+		.proj-doodle,
 		.chaos-note {
 			display: none;
 		}

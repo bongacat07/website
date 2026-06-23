@@ -7,6 +7,13 @@
 			slug: 'why-not-a-2-way-handshake',
 			date: 'May, 2025',
 			tag: 'first principles,TCP'
+		},
+		{
+			title: 'What is even a networking protocol?',
+			teaser: 'Well, how do people even make one?',
+			slug: 'what-is-even-a-networking-protocol',
+			date: 'June 2025',
+			tag: 'first principles,protocol'
 		}
 	];
 </script>

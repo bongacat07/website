@@ -14,6 +14,13 @@
 			slug: 'what-is-even-a-networking-protocol',
 			date: 'June 2025',
 			tag: 'first principles,protocol'
+		},
+		{
+			title: "You don't need IP addresses",
+			teaser: 'Actually, yes.',
+			slug: 'you-don_t-need-ip-addresses',
+			date: 'June 2025',
+			tag: 'first principles,protocol,TCP/IP'
 		}
 	];
 </script>

@@ -124,22 +124,46 @@
 				<h3 class="ch-name">
 					Vegosh Hashmap
 					<span class="lang-links">
-						<!-- Rust: official gear-crab logo -->
-						<a class="lang-link rust" href="#" title="Rust">
+						<a
+							class="lang-link rust"
+							href="https://github.com/bongacat07/vegosh-rs"
+							title="Rust"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src="https://cdn.simpleicons.org/rust" alt="Rust" width="48" height="48" />
 						</a>
 
-						<a class="lang-link zig" href="https://github.com/bongacat07/veg-zig" title="Zig">
+						<a
+							class="lang-link zig"
+							href="https://github.com/bongacat07/veg-zig"
+							title="Zig"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src="https://cdn.simpleicons.org/zig" alt="Zig" width="48" height="48" />
 						</a>
 
-						<a class="https://github.com/bongacat07/vegosh-Cpp" href="#" title="C++">
+						<a
+							class="lang-link cpp"
+							href="https://github.com/bongacat07/vegosh-Cpp"
+							title="C++"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="48" height="48" />
 						</a>
-						<a class="benchmark-link" href="#" title="Benchmarks">
-							<svg viewBox="0 0 24 24" fill="currentColor"
-								><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" /></svg
-							>
+
+						<a
+							class="benchmark-link"
+							href="#"
+							title="Benchmarks"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<svg viewBox="0 0 24 24" fill="currentColor">
+								<path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" />
+							</svg>
 						</a>
 					</span>
 				</h3>
@@ -252,12 +276,113 @@
 			</div>
 		</div>
 
-		<!-- CH 06: DPDK -->
+		<!-- CH 06: Network Stack in Userspace (Rust) -->
 		<div class="chapter ch-right">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tr">Everything userspace, hehe</span>
+				<span class="ch-num">chapter 06</span>
+				<div class="ongoing-badge">🟣 ongoing</div>
+				<h3 class="ch-name">
+					Network Stack in Userspace
+					<span class="ch-name-chaos">— Rust</span>
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/userspace-netstack-rs"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
+							><path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+							/></svg
+						>
+					</a>
+				</h3>
+				<p class="ch-why">"Why stop at TCP?"</p>
+				<p class="ch-body">
+					After progressing quite a bit on my TCP implementation over a TUN interface, I realised,
+					why not do more? So, I decided to implement, ICMP, UDP and TCP over a <span class="hl-y"
+						>TAP interface.</span
+					>
+					Implementing my own ARP, ping from absolute scratch. As close as to a NIC I could get
+					<span class="hl-r">with minimal abstractions</span>
+				</p>
+				<span class="ch-aside">whaaaaaaaaaaaaaaaat →</span>
+			</div>
+		</div>
+
+		<!-- CH 07: MUDP -->
+		<div class="chapter ch-left">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tl">Wait, how do kernel's speak networking?</span>
+				<span class="ch-num">chapter 07</span>
+				<div class="ongoing-badge">🟣 ongoing</div>
+				<h3 class="ch-name">
+					MUDP
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/mudp"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
+							><path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+							/></svg
+						>
+					</a>
+				</h3>
+				<p class="ch-why">"Kernel's where slow, but I wanted to FEEL why."</p>
+				<p class="ch-body">
+					MUDP or My UDP. I wanted to know how kernels implemented networking, because <span
+						class="hl-y">you can't bypass something you truly don't understand</span
+					>
+					My own UDP implementation which is a kernel module and can be called via socket().
+				</p>
+				<span class="ch-aside">One step closer to the final boss ←</span>
+			</div>
+		</div>
+
+		<!-- CH 08: Load Balancer (AF_XDP) -->
+		<div class="chapter ch-right">
+			<div class="ch-dot dot-ongoing"></div>
+			<div class="ch-card card-ongoing">
+				<span class="chaos-note cn-tr">Hopefully the last step?</span>
+				<span class="ch-num">chapter 08</span>
+				<div class="ongoing-badge">🟣 ongoing</div>
+				<h3 class="ch-name">
+					Load Balancer
+					<span class="ch-name-chaos">— AF_XDP</span>
+					<a
+						class="gh-link"
+						href="https://github.com/bongacat07/lb-af-xdp"
+						target="_blank"
+						title="GitHub"
+					>
+						<svg viewBox="0 0 24 24"
+							><path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+							/></svg
+						>
+					</a>
+				</h3>
+				<p class="ch-why">"Well... I don't have a NIC....."</p>
+				<p class="ch-body">
+					DPDK requires specialized Poll Mode Drivers (PMDs) to talk directly to the hardware. My
+					laptop can't do that.... So XDP is just me fiddling around until I get access to an
+					enterprise grade NIC.
+				</p>
+			</div>
+		</div>
+
+		<!-- CH 09: DPDK -->
+		<div class="chapter ch-left">
 			<div class="ch-dot dot-inprog"></div>
 			<div class="ch-card card-inprog">
-				<span class="chaos-note cn-tr">the whole point</span>
-				<span class="ch-num">chapter 06</span>
+				<span class="chaos-note cn-tl">the whole point</span>
+				<span class="ch-num">chapter 09</span>
 				<div class="inprog-badge">⚡ the goal</div>
 				<h3 class="ch-name">DPDK</h3>
 				<p class="ch-why">"The original goal. Still the horizon."</p>

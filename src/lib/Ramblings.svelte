@@ -5,22 +5,29 @@
 			teaser:
 				"I mean? That's a fair question isn't it? But I never really could answer why until I wrote it from scratch.",
 			slug: 'why-not-a-2-way-handshake',
-			date: 'May, 2025',
+			date: 'May, 2026',
 			tag: 'first principles,TCP'
 		},
 		{
 			title: 'What is even a networking protocol?',
 			teaser: 'Well, how do people even make one?',
 			slug: 'what-is-even-a-networking-protocol',
-			date: 'June 2025',
+			date: 'June 2026',
 			tag: 'first principles,protocol'
 		},
 		{
 			title: "You don't need IP addresses",
 			teaser: 'Actually, yes.',
 			slug: 'you-don_t-need-ip-addresses',
-			date: 'June 2025',
+			date: 'June 2026',
 			tag: 'first principles,protocol,TCP/IP'
+		},
+		{
+			title: "Connections aren't real",
+			teaser: 'I was told connection is a pipe?',
+			slug: 'connections-dont-exist',
+			date: 'June 2026',
+			tag: 'first principles,TCP/IP'
 		}
 	];
 </script>

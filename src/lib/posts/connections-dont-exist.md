@@ -21,11 +21,11 @@ Or
 Often times, it's **visualized** as a "pipe", or a "channel" that exists:
 
     Machine A
-        ||
-        ||
-        ||
-        ||
-        ||
+        =
+        =
+        =
+        =
+        =
     Machine B
         
         
@@ -100,7 +100,7 @@ How?
 
 ---
 
-#### That's exactly what TCP does
+### That's exactly what TCP does
 
 It keeps track of everything. It keeps track of **state**.
 
@@ -121,34 +121,3 @@ And proceeds to reject the packet.
 The network delivered it perfectly. It's your machine that pretends nothing arrived not because anything failed, but because it has no _memory_ of ever agreeing to this conversation.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-

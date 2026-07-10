@@ -48,17 +48,8 @@
 				<span class="ch-num">chapter 01</span>
 				<h3 class="ch-name">
 					CSFTP
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/csftp-go"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
+					<a class="gh-link" href="https://github.com/bongacat07/csftp-go" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
 					</a>
 				</h3>
 				<p class="ch-why">"I needed to know what a protocol actually was, from the byte up."</p>
@@ -86,17 +77,8 @@
 				<span class="ch-num">chapter 02</span>
 				<h3 class="ch-name">
 					VegoshDB
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/Vegosh/tree/main/src"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
+					<a class="gh-link" href="https://github.com/bongacat07/Vegosh" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
 					</a>
 				</h3>
 				<p class="ch-why">
@@ -124,46 +106,17 @@
 				<h3 class="ch-name">
 					Vegosh Hashmap
 					<span class="lang-links">
-						<a
-							class="lang-link rust"
-							href="https://github.com/bongacat07/vegosh-rs"
-							title="Rust"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a class="lang-link rust" href="https://github.com/bongacat07/vegosh-rs" title="Rust" target="_blank" rel="noopener noreferrer">
 							<img src="https://cdn.simpleicons.org/rust" alt="Rust" width="48" height="48" />
 						</a>
-
-						<a
-							class="lang-link zig"
-							href="https://github.com/bongacat07/veg-zig"
-							title="Zig"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a class="lang-link zig" href="https://github.com/bongacat07/veg-zig" title="Zig" target="_blank" rel="noopener noreferrer">
 							<img src="https://cdn.simpleicons.org/zig" alt="Zig" width="48" height="48" />
 						</a>
-
-						<a
-							class="lang-link cpp"
-							href="https://github.com/bongacat07/vegosh-Cpp"
-							title="C++"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a class="lang-link cpp" href="https://github.com/bongacat07/vegosh-Cpp" title="C++" target="_blank" rel="noopener noreferrer">
 							<img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="48" height="48" />
 						</a>
-
-						<a
-							class="benchmark-link"
-							href="#"
-							title="Benchmarks"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<svg viewBox="0 0 24 24" fill="currentColor">
-								<path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" />
-							</svg>
+						<a class="benchmark-link" href="#" title="Benchmarks" target="_blank" rel="noopener noreferrer">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" /></svg>
 						</a>
 					</span>
 				</h3>
@@ -171,47 +124,71 @@
 				<p class="ch-body">
 					VegoshDB was built around a specific hashmap design: 64 byte slots, 16 byte keys, 32 byte
 					values, robin hood probing, prefetching. This hashmap was me venturing into the rabbit
-					hole of memory.Built it in <span class="hl-y">Rust, Zig, and C++</span> Now I'm
+					hole of memory. Built it in <span class="hl-y">Rust, Zig, and C++</span> Now I'm
 					<span class="hl-r">benchmarking it against hashbrown and ABSL.</span>
 				</p>
 				<span class="ch-aside">the engine powering everything ←</span>
 			</div>
 		</div>
 
-		<!-- CH 03: TCP -->
+		<!-- CH 03: Network Stack in Userspace (Rust) -->
 		<div class="chapter ch-left">
 			<div class="ch-dot dot-ongoing"></div>
 			<div class="ch-card card-ongoing">
-				<span class="chaos-note cn-tl">yes i read the RFC</span>
+				<span class="chaos-note cn-tl">Everything userspace, hehe</span>
 				<span class="ch-num">chapter 03</span>
 				<div class="ongoing-badge">🟣 ongoing</div>
 				<h3 class="ch-name">
-					TCP from Scratch
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/tcp"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
+					Network Stack in Userspace
+					<span class="ch-name-chaos">— Rust</span>
+					<a class="gh-link" href="https://github.com/bongacat07/userspace-netstack-rs" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
 					</a>
 				</h3>
-				<p class="ch-why">"I can't bypass something I don't understand."</p>
+				<p class="ch-why">"Why stop at TCP?"</p>
 				<p class="ch-body">
-					I saw where the fast path ended. poll → epoll → io_uring → AF_XDP → <span class="hl-y"
-						>DPDK.</span
+					After progressing quite a bit on my TCP implementation over a TUN interface, I realised,
+					why not do more? So, I decided to implement, ICMP, UDP and TCP over a <span class="hl-y"
+						>TAP interface.</span
 					>
-					Up to io_uring, the kernel is still involved. But DPDK? The kernel isn't even there. And I'd
-					only just finished poll. I realized: if DPDK removes the kernel from the picture,
-					<span class="hl-r"
-						>I need to know exactly what the kernel was doing before I remove it.</span
-					> So I started implementing TCP from scratch. RFC 793 compliant, userspace, in Rust.
+					Implementing my own ARP, ping from absolute scratch. As close as to a NIC I could get
+					<span class="hl-r">with minimal abstractions</span>
 				</p>
-				<span class="ch-aside">yes i read the entire RFC ←</span>
+				<span class="ch-aside">whaaaaaaaaaaaaaaaat →</span>
+			</div>
+		</div>
+
+
+		<div class="chapter ch-right">
+			<div class="ch-dot"></div>
+			<div class="ch-card">
+				<span class="chaos-note cn-tr"></span>
+				<span class="ch-num">chapter 03.5.1</span>
+				<h3 class="ch-name">Rawz: A Minimal type safe syscall wrapper 					<a class="gh-link" href="https://github.com/bongacat07/rawz" target="_blank" title="GitHub">
+					<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+				</a></h3>
+				<p class="ch-why">"Wait, why usize?"</p>
+				<p class="ch-body">
+					While exploring zig, I saw zig's library returning a usize for syscalls. The question why usize led me into deep dive into <span class="hl-r">x86 architecture, understanding syscalls down to the CPU instruction</span> and I came out of the rabbit hole with a minimal type safe wrapper over x86 syscalls.
+				</p>
+				<span class="ch-aside">One heck of a rabbit hole ←</span>
+			</div>
+		</div>
+
+		<!-- CH 03.5.2: TODO -->
+		<div class="chapter ch-left">
+			<div class="ch-dot"></div>
+			<div class="ch-card">
+				<span class="chaos-note cn-tl">x86 go brrrrrrr</span>
+				<span class="ch-num">2.5.2</span>
+				<h3 class="ch-name">ASMVER 					<a class="gh-link" href="https://github.com/bongacat07/asmver" target="_blank" title="GitHub">
+					<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+				</a></h3>
+				<p class="ch-why">"Assembly, the final abstraction??"</p>
+				<p class="ch-body">
+                If I understood syscalls down to the CPU instruction, the next obvious but unhinged step had to be to write a server in x86 assembly. So I wrote the server for CALP - Calulator Protocol.
+				</p>
+				<span class="ch-aside">No more scared of assembly →</span>
 			</div>
 		</div>
 
@@ -224,17 +201,8 @@
 				<div class="ongoing-badge">🟣 ongoing</div>
 				<h3 class="ch-name">
 					miniNC <span class="ch-name-chaos">+ chaos mode</span>
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/minc"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
+					<a class="gh-link" href="https://github.com/bongacat07/minc" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
 					</a>
 				</h3>
 				<p class="ch-why">
@@ -254,14 +222,61 @@
 			</div>
 		</div>
 
-		<!-- CH 05: QEMU NIC -->
+		<!-- CH 05: MUDP -->
 		<div class="chapter ch-left">
-			<div class="ch-dot dot-ongoing"></div>
-			<div class="ch-card card-ongoing">
+			<div class="ch-dot dot-planned"></div>
+			<div class="ch-card card-planned">
+				<span class="chaos-note cn-tl">Wait, how do kernel's speak networking?</span>
+				<span class="ch-num">chapter 05</span>
+				<div class="planned-badge">🟠 planned</div>
+				<h3 class="ch-name">
+					MUDP
+					<a class="gh-link" href="https://github.com/bongacat07/mudp" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+					</a>
+				</h3>
+				<p class="ch-why">"Kernel's where slow, but I wanted to FEEL why."</p>
+				<p class="ch-body">
+					MUDP or My UDP. I wanted to know how kernels implemented networking, because <span
+						class="hl-y">you can't bypass something you truly don't understand</span
+					>
+					My own UDP implementation which is a kernel module and can be called via socket().
+				</p>
+				<span class="ch-aside">One step closer to the final boss ←</span>
+			</div>
+		</div>
+
+		<!-- CH 06: Load Balancer (AF_XDP) -->
+		<div class="chapter ch-right">
+			<div class="ch-dot dot-planned"></div>
+			<div class="ch-card card-planned">
+				<span class="chaos-note cn-tr">Hopefully the last step?</span>
+				<span class="ch-num">chapter 06</span>
+				<div class="planned-badge">🟠 planned</div>
+				<h3 class="ch-name">
+					Load Balancer
+					<span class="ch-name-chaos">— AF_XDP</span>
+					<a class="gh-link" href="https://github.com/bongacat07/lb-af-xdp" target="_blank" title="GitHub">
+						<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+					</a>
+				</h3>
+				<p class="ch-why">"Well... I don't have a NIC....."</p>
+				<p class="ch-body">
+					DPDK requires specialized Poll Mode Drivers (PMDs) to talk directly to the hardware. My
+					laptop can't do that.... So XDP is just me fiddling around until I get access to an
+					enterprise grade NIC.
+				</p>
+			</div>
+		</div>
+
+		<!-- CH 07: QEMU NIC -->
+		<div class="chapter ch-left">
+			<div class="ch-dot dot-planned"></div>
+			<div class="ch-card card-planned">
 				<span class="chaos-note cn-tl">what even is a NIC</span>
 				<span class="chaos-note cn-bl">(i know now)</span>
-				<span class="ch-num">chapter 05</span>
-				<div class="ongoing-badge">🟣 ongoing</div>
+				<span class="ch-num">chapter 07</span>
+				<div class="planned-badge">🟠 planned</div>
 				<h3 class="ch-name">QEMU NIC Driver</h3>
 				<p class="ch-why">"Understanding TCP wasn't enough."</p>
 				<p class="ch-body">
@@ -276,113 +291,12 @@
 			</div>
 		</div>
 
-		<!-- CH 06: Network Stack in Userspace (Rust) -->
+		<!-- CH 08: DPDK -->
 		<div class="chapter ch-right">
-			<div class="ch-dot dot-ongoing"></div>
-			<div class="ch-card card-ongoing">
-				<span class="chaos-note cn-tr">Everything userspace, hehe</span>
-				<span class="ch-num">chapter 06</span>
-				<div class="ongoing-badge">🟣 ongoing</div>
-				<h3 class="ch-name">
-					Network Stack in Userspace
-					<span class="ch-name-chaos">— Rust</span>
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/userspace-netstack-rs"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
-					</a>
-				</h3>
-				<p class="ch-why">"Why stop at TCP?"</p>
-				<p class="ch-body">
-					After progressing quite a bit on my TCP implementation over a TUN interface, I realised,
-					why not do more? So, I decided to implement, ICMP, UDP and TCP over a <span class="hl-y"
-						>TAP interface.</span
-					>
-					Implementing my own ARP, ping from absolute scratch. As close as to a NIC I could get
-					<span class="hl-r">with minimal abstractions</span>
-				</p>
-				<span class="ch-aside">whaaaaaaaaaaaaaaaat →</span>
-			</div>
-		</div>
-
-		<!-- CH 07: MUDP -->
-		<div class="chapter ch-left">
-			<div class="ch-dot dot-ongoing"></div>
-			<div class="ch-card card-ongoing">
-				<span class="chaos-note cn-tl">Wait, how do kernel's speak networking?</span>
-				<span class="ch-num">chapter 07</span>
-				<div class="ongoing-badge">🟣 ongoing</div>
-				<h3 class="ch-name">
-					MUDP
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/mudp"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
-					</a>
-				</h3>
-				<p class="ch-why">"Kernel's where slow, but I wanted to FEEL why."</p>
-				<p class="ch-body">
-					MUDP or My UDP. I wanted to know how kernels implemented networking, because <span
-						class="hl-y">you can't bypass something you truly don't understand</span
-					>
-					My own UDP implementation which is a kernel module and can be called via socket().
-				</p>
-				<span class="ch-aside">One step closer to the final boss ←</span>
-			</div>
-		</div>
-
-		<!-- CH 08: Load Balancer (AF_XDP) -->
-		<div class="chapter ch-right">
-			<div class="ch-dot dot-ongoing"></div>
-			<div class="ch-card card-ongoing">
-				<span class="chaos-note cn-tr">Hopefully the last step?</span>
-				<span class="ch-num">chapter 08</span>
-				<div class="ongoing-badge">🟣 ongoing</div>
-				<h3 class="ch-name">
-					Load Balancer
-					<span class="ch-name-chaos">— AF_XDP</span>
-					<a
-						class="gh-link"
-						href="https://github.com/bongacat07/lb-af-xdp"
-						target="_blank"
-						title="GitHub"
-					>
-						<svg viewBox="0 0 24 24"
-							><path
-								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-							/></svg
-						>
-					</a>
-				</h3>
-				<p class="ch-why">"Well... I don't have a NIC....."</p>
-				<p class="ch-body">
-					DPDK requires specialized Poll Mode Drivers (PMDs) to talk directly to the hardware. My
-					laptop can't do that.... So XDP is just me fiddling around until I get access to an
-					enterprise grade NIC.
-				</p>
-			</div>
-		</div>
-
-		<!-- CH 09: DPDK -->
-		<div class="chapter ch-left">
 			<div class="ch-dot dot-inprog"></div>
 			<div class="ch-card card-inprog">
 				<span class="chaos-note cn-tl">the whole point</span>
-				<span class="ch-num">chapter 09</span>
+				<span class="ch-num">chapter 08</span>
 				<div class="inprog-badge">⚡ the goal</div>
 				<h3 class="ch-name">DPDK</h3>
 				<p class="ch-why">"The original goal. Still the horizon."</p>
@@ -419,6 +333,15 @@
 		}
 	}
 	@keyframes pulse-purple {
+		0%,
+		100% {
+			opacity: 0.6;
+		}
+		50% {
+			opacity: 1;
+		}
+	}
+	@keyframes pulse-orange {
 		0%,
 		100% {
 			opacity: 0.6;
@@ -537,6 +460,11 @@
 		outline-color: #ff4444;
 		animation: pulse-red 1.5s ease-in-out infinite;
 	}
+	.dot-planned {
+		background: #f97316;
+		outline-color: #f97316;
+		animation: pulse-orange 1.5s ease-in-out infinite;
+	}
 
 	.ch-card {
 		background: #111;
@@ -560,6 +488,10 @@
 	.card-inprog {
 		border-color: #ff4444;
 		box-shadow: 4px 4px 0 #ff4444 !important;
+	}
+	.card-planned {
+		border-color: #f97316;
+		box-shadow: 4px 4px 0 #f97316 !important;
 	}
 
 	.ch-num {
@@ -675,6 +607,19 @@
 		box-shadow: 2px 2px 0 #000;
 		margin-bottom: 0.5rem;
 		animation: pulse-red 1.5s ease-in-out infinite;
+	}
+	.planned-badge {
+		display: inline-block;
+		font-family: 'Boogaloo', cursive;
+		font-size: 0.8rem;
+		background: #f97316;
+		color: #fff;
+		padding: 2px 10px;
+		border-radius: 999px;
+		border: 2px solid #000;
+		box-shadow: 2px 2px 0 #000;
+		margin-bottom: 0.5rem;
+		animation: pulse-orange 1.5s ease-in-out infinite;
 	}
 
 	.chaos-note {
@@ -868,6 +813,9 @@
 		}
 		.card-inprog {
 			box-shadow: 4px 4px 0 #ff4444 !important;
+		}
+		.card-planned {
+			box-shadow: 4px 4px 0 #f97316 !important;
 		}
 		.proj-header {
 			margin-bottom: 2.5rem;

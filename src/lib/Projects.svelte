@@ -186,7 +186,7 @@
 				</a></h3>
 				<p class="ch-why">"Assembly, the final abstraction??"</p>
 				<p class="ch-body">
-                If I understood syscalls down to the CPU instruction, the next obvious but unhinged step had to be to write a server in x86 assembly. So I wrote the server for CALP - Calulator Protocol.
+                If I understood syscalls down to the CPU instruction, the next obvious but unhinged step had to be to write a server in x86 assembly. So I wrote a really basic TCP echo server.
 				</p>
 				<span class="ch-aside">No more scared of assembly →</span>
 			</div>

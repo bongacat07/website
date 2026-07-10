@@ -202,4 +202,60 @@
 			padding: 2.5rem 1.2rem 5rem;
 		}
 	}
+
+	/* tables */
+		.blog-post :global(table) {
+			width: 100%;
+			max-width: 800px;
+			margin: 2rem auto;
+			border-collapse: separate;
+			border-spacing: 0;
+			background: #111;
+			border: 2px solid #222;
+			border-radius: 6px;
+			overflow: hidden;
+			box-shadow: 4px 4px 0 #ffee55;
+		}
+		.blog-post :global(thead) {
+			background: #1a1a1a;
+		}
+		.blog-post :global(th) {
+			font-family: 'Kranky', cursive;
+			font-size: clamp(1.1rem, 2vw, 1.5rem);
+			color: #ffee55;
+			text-align: center;
+			padding: 1rem 1.2rem;
+			border-bottom: 2px solid #ffee55;
+			letter-spacing: 0.5px;
+		}
+		.blog-post :global(td) {
+			font-family: 'Boogaloo', cursive;
+			font-size: clamp(1rem, 1.8vw, 1.15rem);
+			color: #ccc;
+			text-align: center;
+			padding: 0.9rem 1.2rem;
+			border-bottom: 1px solid #222;
+		}
+		.blog-post :global(tbody tr:last-child td) {
+			border-bottom: none;
+		}
+		.blog-post :global(tbody tr:hover) {
+			background: rgba(255, 238, 85, 0.06);
+		}
+		.blog-post :global(tbody tr:nth-child(even)) {
+			background: rgba(255, 255, 255, 0.02);
+		}
+		/* wrap tables so they scroll on small screens instead of breaking layout */
+		.blog-post :global(table) {
+			display: table;
+		}
+		@media (max-width: 600px) {
+			.blog-post :global(table) {
+				font-size: 0.9rem;
+			}
+			.blog-post :global(th),
+			.blog-post :global(td) {
+				padding: 0.6rem 0.7rem;
+			}
+		}
 </style>

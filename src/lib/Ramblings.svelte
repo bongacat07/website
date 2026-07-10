@@ -26,8 +26,15 @@
 			title: "Connections aren't real",
 			teaser: 'I was told connection is a pipe?',
 			slug: 'connections-dont-exist',
-			date: 'June 2026',
+			date: 'July 2026',
 			tag: 'first principles,TCP/IP'
+		},
+		{
+			title: "Syscalls are cooked",
+			teaser: 'Syscalls were this deep? Dang',
+			slug: 'syscalls-are-cooked',
+			date: 'July 2026',
+			tag: 'first principles,x86,Linux'
 		}
 	];
 </script>
@@ -51,7 +58,7 @@
 
 		<div class="tickets">
 			{#each ramblings as r, i}
-				<a href="/{r.slug}" class="ticket t{i + 1}">
+				<a href="/{r.slug}" class="ticket">
 					<!-- torn edge top -->
 					<div class="tear tear-top">
 						<svg viewBox="0 0 400 18" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,28 +196,20 @@
 		position: relative;
 		transition: transform 0.2s;
 	}
-	.ticket:hover {
-		transform: translateY(-3px);
-	}
 
-	.t1 {
+	/* alternate rotation by position */
+	.ticket:nth-child(odd) {
 		transform: rotate(-1deg);
 	}
-	.t2 {
+	.ticket:nth-child(even) {
 		transform: rotate(0.8deg);
 	}
-	.t3 {
-		transform: rotate(-0.6deg);
-	}
 
-	.t1:hover {
+	.ticket:nth-child(odd):hover {
 		transform: rotate(-1deg) translateY(-4px);
 	}
-	.t2:hover {
+	.ticket:nth-child(even):hover {
 		transform: rotate(0.8deg) translateY(-4px);
-	}
-	.t3:hover {
-		transform: rotate(-0.6deg) translateY(-4px);
 	}
 
 	/* torn edges */
@@ -242,7 +241,8 @@
 		gap: 1.5rem;
 	}
 
-	.t2 .ticket-body {
+	/* alternate color by position: odd = yellow, even = red */
+	.ticket:nth-child(even) .ticket-body {
 		border-color: #ff4444;
 	}
 
@@ -273,7 +273,7 @@
 		display: block;
 	}
 
-	.t2 .ticket-title {
+	.ticket:nth-child(even) .ticket-title {
 		filter: drop-shadow(2px 2px 0 #ff4444);
 	}
 
@@ -310,7 +310,7 @@
 		display: block;
 	}
 
-	.t2 .ticket-arrow {
+	.ticket:nth-child(even) .ticket-arrow {
 		color: #ff4444;
 	}
 

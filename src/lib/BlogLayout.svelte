@@ -70,31 +70,25 @@
 
 	/* paragraphs */
 	.blog-post :global(p) {
-		font-family: 'Boogaloo', cursive;
+		font-family: 'Fredoka', sans-serif;
+		font-weight: 400;
 		font-size: clamp(1.05rem, 2vw, 1.25rem);
 		color: #ccc;
 		line-height: 1.8;
 		margin-bottom: 1.5rem;
 	}
 
-	/* strong / bold → yellow highlight */
-	.blog-post :global(strong) {
-		background: #ffee55;
-		color: #111;
-		padding: 0 5px;
-		border-radius: 2px;
-		font-weight: normal;
-	}
+	/* strong / bold — yellow and bold */
+.blog-post :global(strong) {
+    font-weight: 800;
+    color: #ffee55;
+}
 
-	/* em / italic → red highlight */
-	.blog-post :global(em) {
-		background: #ff4444;
-		color: #fff;
-		padding: 0 5px;
-		border-radius: 2px;
-		font-style: normal;
-	}
-
+/* em / italic — red and italic */
+.blog-post :global(em) {
+    font-style: italic;
+    color: #ff4444;
+}
 	/* inline code */
 	.blog-post :global(code) {
 		font-family: 'Courier New', monospace;
@@ -165,7 +159,7 @@
 	/* lists */
 	.blog-post :global(ul),
 	.blog-post :global(ol) {
-		font-family: 'Boogaloo', cursive;
+		font-family: 'Fredoka', sans-serif;
 		font-size: clamp(1.05rem, 2vw, 1.2rem);
 		color: #ccc;
 		line-height: 1.8;
@@ -229,7 +223,7 @@
 			letter-spacing: 0.5px;
 		}
 		.blog-post :global(td) {
-			font-family: 'Boogaloo', cursive;
+			font-family: 'Fredoka', sans-serif;
 			font-size: clamp(1rem, 1.8vw, 1.15rem);
 			color: #ccc;
 			text-align: center;

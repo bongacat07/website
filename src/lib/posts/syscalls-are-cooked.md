@@ -468,7 +468,7 @@ Unlike a normal function call, executing the `syscall` instruction does **not** 
 
 ### Executing syscall
 
-At a high level, both are mechanisms for **transferring control somewhere else, doing work, and eventually returning a result**.
+At a high level, both are mechanisms for **transferring control somewhere else, doing work**, and eventually *returning a result*.
 
 ```asm
    0x000000000040047a <+0>:	push   %rbp
@@ -490,14 +490,14 @@ At a high level, both are mechanisms for **transferring control somewhere else, 
 
 Remember the earlier C program?
 
-Let's look at something closely : **What happens before the function call**
+Let's look at something closely : What happens *before* the function call
 
 ```
 (gdb) break 
 *0x40048cBreakpoint 1 at 0x40048c
 ```
 
-**Breakpoint set at the `call add` instruction (`0x40048c`).** The program will stop **before** the `call` executes.
+Breakpoint set at the `call add` instruction (`0x40048c`). The program will stop **before** the `call` executes.
 
 
 
@@ -506,7 +506,7 @@ Let's look at something closely : **What happens before the function call**
 /home/bongacat/c/sumBreakpoint 1, 0x000000000040048c in main ()
 ```
 
-**Execution stops just before the `call` instruction.** At this point, nothing related to the function call has happened yet.
+Execution stops just before the `call` instruction. At this point, nothing related to the function call has happened yet.
 
 
 
@@ -526,7 +526,7 @@ Let's look at something closely : **What happens before the function call**
 $rsp0x7fffffffdaf0:  0x0000000000000000
 ```
 
-**Examine the memory at the top of the stack.** The value happens to be `0`, but it isn't related to the upcoming function call. It's simply whatever was already stored there.
+Examine the memory at the **top** of the stack. The value happens to be `0`, but it isn't related to the upcoming function call. It's simply whatever was already stored there.
 
 
 ```
@@ -534,13 +534,13 @@ $rsp0x7fffffffdaf0:  0x0000000000000000
 0x0000000000400466 in add ()
 ```
 
-**`si` (step instruction)** executes exactly **one machine instruction**.
+**`si` (step instruction)** executes exactly *one* machine instruction*.
 
 That single instruction was `call add`, which internally:
 
-1.  **Decreases `RSP` by 8 bytes** (making room for an 8-byte return address).
-2.  **Pushes the return address (`0x400491`) onto the stack.**
-3.  **Sets `RIP` to `0x400466`**, the first instruction of `add()`.
+1.  Decreases `RSP` by 8 bytes (making room for an 8-byte return address).
+2.  Pushes the return address (`0x400491`) onto the stack.
+3.  Sets `RIP` to `0x400466`, the first instruction of `add()`.
 
 
 
@@ -552,7 +552,7 @@ That single instruction was `call add`, which internally:
 
 `**RIP**` now points to the beginning of `add()`.
 
-**`RSP` has decreased from `0x7fffffffdaf0` to `0x7fffffffdae8` (8 bytes)** because the CPU pushed the return address onto the stack.
+`RSP` has decreased from `0x7fffffffdaf0` to `0x7fffffffdae8` (8 bytes) because the CPU pushed the return address onto the stack.
 
 
 

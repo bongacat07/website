@@ -39,6 +39,7 @@
 		<circle cx="35" cy="35" r="30" stroke="#ffee55" stroke-width="2" stroke-dasharray="6 4" />
 	</svg>
 	<div class="hero-inner">
+		<img src="/favicon-cool.png" alt="" class="scatter-img fav" />
 		<div class="hero-left">
 			<div class="cloud-wrap">
 				<svg class="cloud-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -92,6 +93,7 @@
 				<div class="profile-placeholder">
 					<img src={logo} alt="Bonga Cat" />
 				</div>
+				<img src="/black-nyan.png" alt="" class="scatter-img nyan" />
 				<div class="intent-bubble">
 					My most noble intentions are to indulge in innocuous levels of tomfoolery
 				</div>
@@ -105,6 +107,11 @@
 		position: relative;
 		z-index: 1;
 		display: inline-block;
+	}
+
+	.profile-placeholder {
+		position: relative;
+		z-index: 1;
 	}
 
 	.intent-bubble {
@@ -158,6 +165,58 @@
 			right: -1rem;
 			bottom: -3.5rem;
 			padding: 0.4rem 0.6rem;
+		}
+	}
+
+	.scatter-img {
+		position: absolute;
+		z-index: 3;
+		pointer-events: none;
+	}
+
+	/* favicon cat — unchanged, positioned relative to .hero-inner */
+	.fav {
+		bottom: -5.5rem;
+		left: 4%;
+		width: 140px;
+		animation: pulse 4.6s ease-in-out infinite;
+		animation-delay: 0.8s;
+	}
+
+	/* nyan cat — positioned relative to .profile-frame, tucked behind the profile pic */
+	.nyan {
+		top: -5%;
+		right: -10.5rem;
+		left: auto;
+		width: 190px;
+		z-index: 0;
+		animation: pulse 4s ease-in-out infinite;
+	}
+
+
+	@media (max-width: 768px) {
+		.fav {
+			width: 95px;
+			bottom: -1.5rem;
+			left: 2%;
+		}
+		.nyan {
+			width: 120px;
+			top: -5%;
+			right: -6.6rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.fav {
+			width: 70px;
+			bottom: -1rem;
+			left: 0%;
+		}
+		.nyan {
+			width: 90px;
+			top: -5%;
+			right: -5rem;
 		}
 	}
 </style>

@@ -331,7 +331,7 @@
 	<div class="escaped-grid">
 		<!-- VegoshDB -->
 		<div class="escaped-card ec-rot1">
-			<span class="esc-chaos-note ecn-tl">beat redis. specifically.</span>
+			<span class="esc-chaos-note ecn-tl">speeeeeeeeeeddd</span>
 			<div class="escaped-card-top">
 				<h3 class="escaped-name">VegoshDB</h3>
 				<a class="escaped-gh" href="https://github.com/bongacat07/vegoshdb" target="_blank" title="GitHub" rel="noopener noreferrer">

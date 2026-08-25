@@ -314,6 +314,125 @@
 	</div>
 </section>
 
+
+<section class="escaped">
+	<span class="esc-doodle ed1">phew, made it out</span>
+	<span class="esc-doodle ed2">← receipts</span>
+	<span class="esc-doodle ed3">✦ ✶ ✦</span>
+	<span class="esc-doodle ed4">no really, they work</span>
+	<span class="esc-doodle ed5">✶✶</span>
+	<span class="esc-doodle ed6">not just theory →</span>
+
+	<div class="escaped-header">
+		<h1 class="escaped-title">Projects that escaped the rabbit hole</h1>
+		<span class="escaped-sub">Actually cool stuff ngl</span>
+	</div>
+
+	<div class="escaped-grid">
+		<!-- VegoshDB -->
+		<div class="escaped-card ec-rot1">
+			<span class="esc-chaos-note ecn-tl">beat redis. specifically.</span>
+			<div class="escaped-card-top">
+				<h3 class="escaped-name">VegoshDB</h3>
+				<a class="escaped-gh" href="https://github.com/bongacat07/vegoshdb" target="_blank" title="GitHub" rel="noopener noreferrer">
+					<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+				</a>
+			</div>
+			<p class="escaped-what">A key-value store built for ONE specific workload</p>
+			<p class="escaped-verdict">
+
+				Well... now you get what a KV Store is...
+			</p>
+
+			<div class="escaped-tags">
+				<span class="escaped-tag et-y">64B entries</span>
+				<span class="escaped-tag et-r">cache-aligned</span>
+				<span class="escaped-tag et-y">1M keys</span>
+			</div>
+			<div class="escaped-stack">
+				<span class="stack-chip">Zig</span>
+			</div>
+		</div>
+
+		<!-- Vegosh Hashmap -->
+		<div class="escaped-card ec-rot2">
+			<span class="esc-chaos-note ecn-tr">side quest that stuck around</span>
+			<div class="escaped-card-top">
+				<h3 class="escaped-name">Vegosh Hashmap</h3>
+				<span class="escaped-links">
+					<a class="escaped-lang" href="https://github.com/bongacat07/vegosh-rs" title="Rust" target="_blank" rel="noopener noreferrer">
+						<img src="https://cdn.simpleicons.org/rust" alt="Rust" width="18" height="18" />
+					</a>
+					<a class="escaped-lang" href="https://github.com/bongacat07/veg-zig" title="Zig" target="_blank" rel="noopener noreferrer">
+						<img src="https://cdn.simpleicons.org/zig" alt="Zig" width="18" height="18" />
+					</a>
+					<a class="escaped-lang" href="https://github.com/bongacat07/vegosh-Cpp" title="C++" target="_blank" rel="noopener noreferrer">
+						<img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="18" height="18" />
+					</a>
+				</span>
+			</div>
+			<p class="escaped-what">The engine underneath VegoshDB: 64-byte slots, robin hood probing, built three times over.</p>
+			<p class="escaped-verdict">
+
+				understanding memory layout well enough to argue with it, in three languages, then benchmark the argument.
+			</p>
+			<div class="escaped-tags">
+				<span class="escaped-tag et-r">vs hashbrown</span>
+				<span class="escaped-tag et-y">vs ABSL</span>
+			</div>
+			<div class="escaped-stack">
+				<span class="stack-chip">powers VegoshDB ↑</span>
+			</div>
+		</div>
+
+		<!-- Rawz -->
+		<div class="escaped-card ec-rot3">
+			<span class="esc-chaos-note ecn-tl">man i wish this existed</span>
+			<div class="escaped-card-top">
+				<h3 class="escaped-name">Rawz</h3>
+				<a class="escaped-gh" href="https://github.com/bongacat07/rawz" target="_blank" title="GitHub" rel="noopener noreferrer">
+					<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+				</a>
+			</div>
+			<p class="escaped-what">A minimal, type-safe wrapper over Linux syscalls for Zig</p>
+			<p class="escaped-verdict">
+
+				a raw <code>usize</code> return value wasn't good enough once I understood what was actually being thrown away at the ABI boundary.
+			</p>
+			<div class="escaped-tags">
+				<span class="escaped-tag et-y">x86 ABI</span>
+				<span class="escaped-tag et-r">type-safe</span>
+			</div>
+			<div class="escaped-stack">
+				<span class="stack-chip">Zig</span>
+			</div>
+		</div>
+
+		<!-- MinLab -->
+		<div class="escaped-card ec-rot4">
+			<span class="esc-chaos-note ecn-tr">chaos mode: on</span>
+			<div class="escaped-card-top">
+				<h3 class="escaped-name">MinLab</h3>
+				<a class="escaped-gh" href="https://github.com/bongacat07/minlab" target="_blank" title="GitHub" rel="noopener noreferrer">
+					<svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
+				</a>
+			</div>
+			<p class="escaped-what">A TCP implementation tester with a chaos mode that fires packets at your stack in states it shouldn't survive.</p>
+			<p class="escaped-verdict">
+
+				Needed a way to test my TCP implementation bruh....
+			</p>
+			<div class="escaped-tags">
+				<span class="escaped-tag et-r">chaos mode</span>
+				<span class="escaped-tag et-y">replaces nc</span>
+			</div>
+			<div class="escaped-stack">
+				<span class="stack-chip stack-chip-live">actively growing</span>
+			</div>
+		</div>
+	</div>
+</section>
+
 <style>
 	* {
 		box-sizing: border-box;
@@ -790,6 +909,290 @@
 		fill: currentColor;
 	}
 
+	/* =========================================================
+	   Projects that escaped the rabbit hole — same chaos energy
+	   as the rest of the site: doodles, rotated cards, colorful
+	   shadows, wiggle/bob motion. No copy changes, styling only.
+	========================================================= */
+	.escaped {
+		position: relative;
+		padding: 5rem 2rem 6rem;
+		max-width: 1100px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.esc-doodle {
+		position: absolute;
+		font-family: 'Boogaloo', cursive;
+		pointer-events: none;
+		z-index: 0;
+		white-space: nowrap;
+	}
+	.ed1 {
+		top: 2%;
+		left: 1%;
+		font-size: 0.8rem;
+		color: #ffee55;
+		transform: rotate(-9deg);
+		opacity: 0.5;
+		animation: wiggle 4.2s ease-in-out infinite;
+	}
+	.ed2 {
+		top: 12%;
+		right: 2%;
+		font-size: 0.75rem;
+		color: #ff4444;
+		transform: rotate(6deg);
+		opacity: 0.45;
+		animation: bob 3.3s ease-in-out infinite;
+	}
+	.ed3 {
+		top: 45%;
+		left: 0.5%;
+		font-size: 1rem;
+		color: #a855f7;
+		transform: rotate(10deg);
+		opacity: 0.4;
+	}
+	.ed4 {
+		bottom: 18%;
+		right: 1%;
+		font-size: 0.75rem;
+		color: #ffee55;
+		transform: rotate(-7deg);
+		opacity: 0.45;
+		animation: bob 3.8s ease-in-out infinite;
+	}
+	.ed5 {
+		bottom: 5%;
+		left: 3%;
+		font-size: 0.9rem;
+		color: #ff4444;
+		transform: rotate(8deg);
+		opacity: 0.35;
+		animation: wiggle 5s ease-in-out infinite;
+	}
+	.ed6 {
+		top: 65%;
+		right: 3%;
+		font-size: 0.7rem;
+		color: #ffee55;
+		transform: rotate(-5deg);
+		opacity: 0.4;
+	}
+
+	.escaped-header {
+		text-align: center;
+		margin-bottom: 3rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.escaped-title {
+		font-family: 'Kranky', cursive;
+		font-size: clamp(2rem, 4.5vw, 3.6rem);
+		color: #fff;
+		-webkit-text-stroke: 1.5px #000;
+		paint-order: stroke fill;
+		filter: drop-shadow(3px 3px 0 #ffee55) drop-shadow(-1px -1px 0 #ff4444);
+		display: inline-block;
+		transform: rotate(-1deg);
+	}
+
+	.escaped-sub {
+		display: block;
+		font-family: 'Boogaloo', cursive;
+		font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+		color: #ffee55;
+		margin-top: 0.6rem;
+		opacity: 0.85;
+		transform: rotate(1deg);
+	}
+
+	.escaped-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem 1.5rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.escaped-card {
+		background: #111;
+		border: 2px solid #222;
+		border-radius: 4px;
+		padding: 1.6rem 1.7rem;
+		position: relative;
+		box-shadow: 4px 4px 0 #ffee55;
+		transition: transform 0.2s;
+	}
+	.escaped-card:hover {
+		transform: translateY(-3px) rotate(0deg) !important;
+	}
+
+	.ec-rot1 {
+		transform: rotate(-1.2deg);
+		box-shadow: 4px 4px 0 #ffee55;
+	}
+	.ec-rot2 {
+		transform: rotate(1deg);
+		border-color: #a855f7;
+		box-shadow: -4px 4px 0 #a855f7;
+	}
+	.ec-rot3 {
+		transform: rotate(0.8deg);
+		border-color: #ff4444;
+		box-shadow: 4px 4px 0 #ff4444;
+	}
+	.ec-rot4 {
+		transform: rotate(-0.9deg);
+		box-shadow: -4px 4px 0 #ffee55;
+	}
+
+	.esc-chaos-note {
+		position: absolute;
+		font-family: 'Boogaloo', cursive;
+		font-size: 0.72rem;
+		color: #ffee55;
+		pointer-events: none;
+		white-space: nowrap;
+		opacity: 0.6;
+		z-index: 3;
+	}
+	.ecn-tl {
+		top: -1.2rem;
+		left: 0.5rem;
+		transform: rotate(-5deg);
+	}
+	.ecn-tr {
+		top: -1.2rem;
+		right: 0.5rem;
+		transform: rotate(4deg);
+		color: #ff4444;
+	}
+
+	.escaped-card-top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 0.9rem;
+	}
+
+	.escaped-name {
+		font-family: 'Kranky', cursive;
+		font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+		color: #fff;
+		-webkit-text-stroke: 1px #000;
+		paint-order: stroke fill;
+		filter: drop-shadow(2px 2px 0 #ffee55);
+	}
+
+	.escaped-gh,
+	.escaped-lang {
+		display: inline-flex;
+		align-items: center;
+		color: #555;
+		text-decoration: none;
+		transition:
+			color 0.2s,
+			transform 0.2s;
+	}
+	.escaped-gh:hover {
+		color: #ff4444;
+		transform: scale(1.35) rotate(-8deg);
+	}
+	.escaped-gh svg {
+		width: 20px;
+		height: 20px;
+		fill: currentColor;
+	}
+	.escaped-links {
+		display: flex;
+		gap: 0.5rem;
+	}
+	.escaped-lang:hover {
+		transform: scale(1.35) rotate(8deg);
+	}
+
+	.escaped-what {
+		font-family: 'Boogaloo', cursive;
+		font-size: clamp(0.9rem, 1.4vw, 1rem);
+		color: #ccc;
+		line-height: 1.5;
+		margin-bottom: 0.9rem;
+	}
+
+	.escaped-verdict {
+		font-family: 'Boogaloo', cursive;
+		font-size: clamp(0.85rem, 1.3vw, 0.95rem);
+		color: #bbb;
+		line-height: 1.5;
+		margin-bottom: 1rem;
+		padding-left: 0.8rem;
+		border-left: 3px solid #ff4444;
+	}
+	.escaped-verdict code {
+		background: #ffee55;
+		color: #111;
+		padding: 1px 5px;
+		border-radius: 3px;
+		font-family: monospace;
+		font-weight: bold;
+	}
+
+	.ev-label {
+		color: #ffee55;
+		font-style: italic;
+		margin-right: 0.3rem;
+	}
+
+	.escaped-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+	.escaped-tag {
+		font-family: 'Boogaloo', cursive;
+		font-size: 0.72rem;
+		color: #111;
+		border: 2px solid #000;
+		padding: 2px 10px;
+		border-radius: 999px;
+		box-shadow: 2px 2px 0 #000;
+	}
+	.et-y {
+		background: #ffee55;
+	}
+	.et-r {
+		background: #ff4444;
+		color: #fff;
+	}
+
+	.escaped-stack {
+		display: flex;
+		gap: 0.5rem;
+	}
+	.stack-chip {
+		font-family: 'Boogaloo', cursive;
+		font-size: 0.78rem;
+		color: #111;
+		background: #ffee55;
+		padding: 3px 11px;
+		border-radius: 999px;
+		font-weight: 600;
+		border: 2px solid #000;
+		box-shadow: 2px 2px 0 #000;
+		transform: rotate(-1deg);
+		display: inline-block;
+	}
+	.stack-chip-live {
+		background: #a855f7;
+		color: #fff;
+		animation: pulse-purple 1.5s ease-in-out infinite;
+	}
+
 	@media (max-width: 700px) {
 		.spine-line {
 			display: none;
@@ -827,6 +1230,23 @@
 		}
 		.proj-doodle,
 		.chaos-note {
+			display: none;
+		}
+
+		.escaped-grid {
+			grid-template-columns: 1fr;
+		}
+		.escaped {
+			padding: 3rem 1.2rem 4rem;
+		}
+		.ec-rot1,
+		.ec-rot2,
+		.ec-rot3,
+		.ec-rot4 {
+			transform: none;
+		}
+		.esc-doodle,
+		.esc-chaos-note {
 			display: none;
 		}
 	}

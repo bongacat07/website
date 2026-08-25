@@ -685,6 +685,34 @@ svg.underline {
 	color: #ff4444;
 }
 
+/* "Because:" turn */
+.ab-because-wrap {
+	position: relative;
+	display: inline-block;
+	margin: 3rem 0 1.5rem;
+}
+
+.ab-because-title {
+	font-family: 'Kranky', cursive;
+	font-size: clamp(1.8rem, 4vw, 3.2rem);
+	color: #fff;
+	-webkit-text-stroke: 1.5px #000;
+	paint-order: stroke fill;
+	filter: drop-shadow(2px 2px 0 #ff4444) drop-shadow(-1px -1px 0 #ffee55);
+	transform: rotate(-1.5deg);
+	display: inline-block;
+}
+
+.ab-because {
+	margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+	.ab-because-wrap {
+		margin: 2.5rem 0 1.25rem;
+	}
+}
+
 /* rant lines */
 .ab-rant {
 	display: flex;
